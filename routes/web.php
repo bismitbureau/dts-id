@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/home', 'IndexController@index');
+
+Route::get('/contact', 'ContactController@index');
