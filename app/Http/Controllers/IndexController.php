@@ -2,33 +2,27 @@
 
 use View;
 
-class IndexController extends Controller {
+class IndexController extends Controller
+{
+    protected $layout = 'layouts.main';
 
-        protected $layout = 'layouts.main';
+    /**
+     * Constructor, duh!
+     *
+     * @access      public
+     * @return      void
+     *
+     */
+    public function __construct()
+    {
+        $this->middleware('guest');
+    }
 
-        /**
-         * Constructor, duh!
-         *
-         * @access      public
-         * @return      void
-         *
-         */
-        public function __construct()
-        {
-                $this->middleware('guest');
-        }
-
-        /**
-         * Show the application index.
-         *
-         * @access      public
-         * @return      Response
-         *
-         */
-        public function index()
-        {
-                return view('index');
-        }
-
+    /**
+     * Show the application index.
+     *
+     * @access      public
+     * @return      Response
+     *
+     */
 } // end of class
-

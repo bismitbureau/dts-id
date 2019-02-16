@@ -7,21 +7,28 @@
   <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
     <ul class="navbar-nav mr-auto s">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item dropdown active">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Profile
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">About Us</a>
+          <a class="dropdown-item" href="/about">About Us</a>
           <a class="dropdown-item" href="#">Board of Director</a>
       </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Research<span class="sr-only">(current)</span></a>
+      <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Research
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Research 1</a>
+          <a class="dropdown-item" href="#">Research 2</a>
+          <a class="dropdown-item" href="#">Research 3</a>
+          <a class="dropdown-item" href="#">Research 4</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#">Contact Us<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="/contact">Contact Us<span class="sr-only">(current)</span></a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
