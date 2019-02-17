@@ -20,9 +20,7 @@
 
 <body>
 <!-- wrapper -->
-<div class="container">
-    @yield('content')
-</div>
+@yield('content')
 <!-- end wrapper -->
 
 <!-- footer -->
