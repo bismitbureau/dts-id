@@ -1,0 +1,12 @@
+body {
+    margin: auto 0;
+}
+
+@font-face {
+    font-family: "Futura";
+    src: url("../ttf/futura.ttf");
+}
+
+.f-futura {
+    font-family: "Futura";
+}

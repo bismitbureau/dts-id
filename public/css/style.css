@@ -1,0 +1,65 @@
+/* 
+    COLOR GUIDE
+    
+    YELLOW!
+    #FFFF64
+    #FFF000
+    #9B9B00
+
+    GREEN!
+    #C1F25F
+    #9FEE00
+    #619100
+
+    ORANGE!
+    #FFE464
+    #FFD300
+    #9B8100
+*/
+
+/* element selector */
+
+
+article {
+    font-family: "Chronicle SSm", Georgia, Times, "Times New Roman", serif;
+
+}
+
+p {
+    text-align: justify;
+    `
+}
+
+
+/* class selector */
+.container {
+    margin-top: 1rem;
+}
+
+.title {
+    background-color: yellow;
+    text-transform: uppercase;
+}
+
+.zone {
+    padding: 30px 50px;
+    cursor: pointer;
+    font-size: 2em;
+    border: 3px solid grey;
+    transition: all 0.3s linear;
+}
+
+.zone:hover {
+    -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+    -o-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* id selector */

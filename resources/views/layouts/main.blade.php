@@ -10,6 +10,9 @@
 
 <!-- Custom styles for this template -->
 
+<link rel="stylesheet" href="{{ asset('css/base.css') }}">
+<link rel="stylesheet" href="{{ asset('css/style.css') }}">
+
 @include('header')
 
 </head>
