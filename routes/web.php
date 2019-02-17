@@ -19,3 +19,5 @@ Route::get('/', 'PageController@index');
 Route::get('/contact', 'ContactController@index');
 
 Route::get('/about', 'PageController@about');
+
+Route::get('/board-of-directors', 'PageController@bod');
