@@ -248,3 +248,8 @@ section .section-title {
     margin-bottom: 10px;
 }
 }
+
+#navbar {
+  transition: top 0.3s;
+  background-color: rgb(52, 58, 64);opacity: 0.975 !important;
+}
