@@ -39,7 +39,7 @@ $(document).ready(function() {
     var footerTop = $('#footer').position().top + footerHeight;
 
     if (footerTop < docHeight)
-        $('#footer').css('margin-top', 16+ (docHeight - footerTop) + 'px');
+        $('#footer').css('margin-top', 18+ (docHeight - footerTop) + 'px');
 });
 </script>
 </body>
