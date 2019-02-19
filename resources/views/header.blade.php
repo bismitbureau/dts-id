@@ -27,7 +27,7 @@
           <a class="dropdown-item" href="#">Research 3</a>
           <a class="dropdown-item" href="#">Research 4</a>
       </li>
-      <li class="nav-item active  float-right">
+      <li class="nav-item active float-right">
         <a class="nav-link" href="/contact">Contact Us<span class="sr-only">(current)</span></a>
       </li>
     </ul>
