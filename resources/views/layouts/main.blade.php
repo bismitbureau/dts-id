@@ -10,6 +10,9 @@
 
 <!-- Custom styles for this template -->
 
+<link rel="stylesheet" href="{{ asset('css/base.css') }}">
+<link rel="stylesheet" href="{{ asset('css/style.css') }}">
+
 @include('header')
 
 </head>
@@ -17,9 +20,7 @@
 
 <body>
 <!-- wrapper -->
-<div class="container">
-    @yield('content')
-</div>
+@yield('content')
 <!-- end wrapper -->
 
 <!-- footer -->

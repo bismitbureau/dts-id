@@ -13,4 +13,9 @@ class PageController extends Controller
     {
         return view('about');
     }
+
+    public function bod()
+    {
+        return view('bod');
+    }
 }
