@@ -8,6 +8,10 @@ body {
     font-family: "Futura";
     src: url("../ttf/futura.ttf");
 }
+@font-face {
+    font-family: "Avenir";
+    src: url("../ttf/AvenirLTStd-LightOblique.ttf");
+}
 
 .f-futura {
     font-family: "Futura";
