@@ -16,6 +16,10 @@
 // });
 Route::get('/', 'PageController@index');
 
+Route::get('/articles', 'PageController@articleList');
+Route::get('/articles/1', 'PageController@singleArticle');
+
+
 Route::get('/contact', 'ContactController@index');
 
 Route::get('/about', 'PageController@about');

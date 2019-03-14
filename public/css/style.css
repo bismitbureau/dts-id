@@ -62,4 +62,8 @@ p {
     align-items: center;
 }
 
+.card {
+    margin: 2rem 2rem;
+}
+
 /* id selector */
