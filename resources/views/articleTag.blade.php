@@ -46,7 +46,7 @@
 </div>
 
 <div class="container pt-4">
-    <h2 class="f-futura">All Articles</h2>
+    <h2 class="f-futura">Article with tag : <a href="article/tag/asd">asd</a></h2>
     <hr>
     <div class="container">
         <div class="card">

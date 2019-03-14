@@ -13,8 +13,12 @@ class PageController extends Controller
         return view('articleList');
     }
     
-    public function singleArticle(){
-        return view('singleArticle');
+    public function articleSingle(){
+        return view('articleSingle');
+    }
+    
+    public function articleTag(){
+        return view('articleTag');
     }
 
     public function about()
