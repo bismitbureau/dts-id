@@ -9,6 +9,26 @@ class PageController extends Controller
         return view('index');
     }
 
+    public function articleList(){
+        return view('articleList');
+    }
+    
+    public function articleSingle(){
+        return view('articleSingle');
+    }
+    
+    public function articleTag(){
+        return view('articleTag');
+    }
+
+    public function researchList(){
+        return view('researchList');
+    }
+
+    public function gallery(){
+        return view('gallery');
+    }
+
     public function about()
     {
         return view('about');

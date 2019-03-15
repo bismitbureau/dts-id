@@ -20,14 +20,66 @@
 /* element selector */
 
 
-article {
-    font-family: "Chronicle SSm", Georgia, Times, "Times New Roman", serif;
-
-}
 
 p {
     text-align: justify;
     `
+}
+
+a:link {
+    color: #000000;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #000000;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #053f5e;
+  }
+  
+  /* selected link */
+  a:active {
+      color: #115173;
+    }
+    
+img{
+    width:100%;
+    height:auto;
+}
+
+a.carousel-link{
+    color: #fff;
+}
+
+section.article{
+    /* margin-bottom: 3rem; */
+    /* padding: 7rem 7rem 3rem 7rem; */
+    border: 0.1px solid #022c43;
+    border-radius: 10px;
+    
+}
+
+img.img-blog{
+    max-width: 450px;
+}
+
+img.img-gallery{
+    transition: all .2s ease-in-out; 
+}
+
+img.img-gallery:hover{
+    transform: scale(1.1);
+}
+
+.row:hover img.img-gallery{
+    opacity: .5;
+}
+
+.row img.img-gallery:hover{
+    opacity: 1;
 }
 
 
@@ -61,5 +113,51 @@ p {
     justify-content: center;
     align-items: center;
 }
+
+.card {
+    margin: 2rem 2rem;
+    padding: 1rem 1rem;
+}
+
+.carousel{
+    z-index: -10000;
+}
+
+.carousel-caption{
+    background-color: rgba(0,0,0, 0.75);
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('../images/research/cover.jpeg');
+  
+    /* Full height */
+    height: 100%; 
+    min-height: 720px;
+
+    position: relative;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .parallax h1{
+      color: white;
+    position: absolute;               /* 2 */
+    top: 50%;                         /* 3 */
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0,0,0, 0.75);
+   }   /* 4 */
+  
+  /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+  @media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  }
 
 /* id selector */
