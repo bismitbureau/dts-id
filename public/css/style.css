@@ -20,10 +20,6 @@
 /* element selector */
 
 
-article {
-    font-family: "Chronicle SSm", Georgia, Times, "Times New Roman", serif;
-
-}
 
 p {
     text-align: justify;
@@ -91,8 +87,12 @@ a:link {
     padding: 1rem 1rem;
 }
 
+.carousel{
+    z-index: -10000;
+}
+
 .carousel-caption{
-    background-color: rgba(2, 44, 67, 0.75);
+    background-color: rgba(0,0,0, 0.75);
 }
 
 a.carousel-link{
@@ -100,6 +100,11 @@ a.carousel-link{
 }
 
 section.article{
-    color:red;
+    /* margin-bottom: 3rem; */
+    /* padding: 7rem 7rem 3rem 7rem; */
+    border: 0.1px solid #022c43;
+    border-radius: 10px;
+    
 }
+
 /* id selector */

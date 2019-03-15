@@ -46,7 +46,7 @@
 </div>
 
 <div class="container pt-4">
-    <h2 class="f-futura">All Articles</h2>
+    <h2 class="">All Articles</h2>
     <hr>
     <div class="container">
         <div class="card">
