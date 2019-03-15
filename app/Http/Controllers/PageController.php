@@ -21,6 +21,14 @@ class PageController extends Controller
         return view('articleTag');
     }
 
+    public function researchList(){
+        return view('researchList');
+    }
+
+    public function gallery(){
+        return view('gallery');
+    }
+
     public function about()
     {
         return view('about');
