@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Article;
-use App\Media;
+use App\ArticleMedia;
 use Illuminate\Support\Facades\DB;
 
 
@@ -22,8 +22,8 @@ class ArticleController extends Controller
                     ->get();
 
         foreach($articles as $article){
-            $article->media = DB::table('media')
-                                ->where('media.article_id', '=', $article->article_id)
+            $article->media = DB::table('article_media')
+                                ->where('article_media.article_id', '=', $article->article_id)
                                 ->get();
         }
         return view('admin.articles.index')->with(['articles'=> $articles]);
