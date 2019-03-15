@@ -30,6 +30,30 @@ p {
     `
 }
 
+a:link {
+    color: #000000;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #000000;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #053f5e;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #115173;
+  }
+
+  img{
+    width:100%;
+    height:auto;
+  }
+
 
 /* class selector */
 .container {
@@ -62,4 +86,20 @@ p {
     align-items: center;
 }
 
+.card {
+    margin: 2rem 2rem;
+    padding: 1rem 1rem;
+}
+
+.carousel-caption{
+    background-color: rgba(2, 44, 67, 0.75);
+}
+
+a.carousel-link{
+    color: #fff;
+}
+
+section.article{
+    color:red;
+}
 /* id selector */
