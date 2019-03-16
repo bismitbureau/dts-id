@@ -25,6 +25,10 @@ class PageController extends Controller
         return view('researchList');
     }
 
+    public function profile(){
+        return view('profile');
+    }
+
     public function gallery(){
         return view('gallery');
     }
@@ -38,4 +42,13 @@ class PageController extends Controller
     {
         return view('bod');
     }
+
+    public function faq(){
+        return view('faq');
+    }
+
+    public function underConstruction(){
+        return view('underConstruction');
+    }
+
 }
