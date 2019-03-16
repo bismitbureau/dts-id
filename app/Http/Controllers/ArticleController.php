@@ -26,7 +26,7 @@ class ArticleController extends Controller
                                 ->where('article_media.article_id', '=', $article->article_id)
                                 ->get();
         }
-        return view('admin.articles.index')->with(['articles'=> $articles]);
+        return view('articleList')->with(['articles'=> $articles]);
     }
 
     /**
@@ -66,7 +66,7 @@ class ArticleController extends Controller
                 $path = $file->store(
                     '/public/'.$article->article_id
                 );
-                $media = new Media;
+                $media = new ArticleMedia;
                 $media->path = substr($path, 7);
                 $media->article_id = $article->article_id;
                 $media->save();

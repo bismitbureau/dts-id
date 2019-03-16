@@ -28,8 +28,13 @@
 						<td>{{ substr($article->body, 0, 50) }}{{ strlen($article->body) > 100 ? '....' : '' }}</td>
 						<td>
 							@foreach($article->media as $pic)
+
 							@if($loop->first)
-								<img src="{{ '/storage/'.$pic->path }}" alt="" height="200" width="200">
+								@if (pathinfo($pic->path, PATHINFO_EXTENSION) == 'jpeg')
+									<img src="{{ '/storage/'.$pic->path }}" alt="" height="200" width="200">
+								@else
+									<a href="{{ '/storage/'.$pic->path }}">Download File</a>
+								@endif
 							@endif
 							@endforeach
 						</td>

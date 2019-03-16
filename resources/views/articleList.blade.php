@@ -10,6 +10,7 @@
     </ol>
     
     <div class="carousel-inner">
+        
         <div class="carousel-item active">
             <img class="d-block w-100 cover img-fluid half-screen"  src="{{ asset('images/article/cover.jpg') }}" alt="First slide">
             <a href="/article/1">
@@ -49,82 +50,35 @@
     <h2 class="">All Articles</h2>
     <hr>
     <div class="container">
+        @foreach ($articles as $article)
         <div class="card">
-            <div class="row no-gutters">
-                <div class="col-auto">
-                    <img src="{{ asset('images/article/dumy.jpg') }}" class="img-fluid img-blog" alt="" width="auto">
-                </div>
-                <div class="col align-self-center">
-                    <div class="card-block px-3">
-                        <a href="article/1"><h4 class="card-title f-futura">Paving the path to a brighter future</h4></a>
-                        <h6 class="card-subtitle mb-2 text-muted">January 1st, 2019</h6>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsam 
-                            perferendis explicabo excepturi dignissimos amet nesciunt! Doloremque nihil quos a officia sunt saepe minima cupiditate! sae...</p>
-                        <hr>
+                <div class="row no-gutters">
+                    @foreach($article->media as $pic)
+                    @if($loop->first)
+                        @if (pathinfo($pic->path, PATHINFO_EXTENSION) == 'jpeg')
+                            <div class="col-auto">
+                                <img src="{{ '/storage/'.$pic->path }}" class="img-fluid img-blog" alt="" width="auto">
+                            </div>
+                        @else
+                            <a href="{{ '/storage/'.$pic->path }}">Download File</a>
+                        @endif
+                    @endif
+                    @endforeach
+                    
+                    <div class="col align-self-center">
+                        <div class="card-block px-3">
+                            <a href="article/1"><h4 class="card-title f-futura">{{ $article->title }}</h4></a>
+                            <h6 class="card-subtitle mb-2 text-muted">January 1st, 2019</h6>
+                            <p class="card-text">{{ $article->content }}</p>
+                            <hr>
+                        </div>
+                        <p class="text-muted float-left ml-3">tags : <a href="article/tag/asd">asd</a>, <a href="article/tag/asd">asd</a>, <a href="article/tag/asd">asd</a></p>
+                        <a href="#"><p class="text-muted float-right mr-3"> 0 shares <i class="fa fa-share" aria-hidden="true"></i></p></a>
+                        <a href="#"><p class="text-muted float-right mr-3"> 0 comments <i class="fa fa-comment" aria-hidden="true"></i></p></a>
                     </div>
-                    <p class="text-muted float-left ml-3">tags : <a href="article/tag/asd">asd</a>, <a href="article/tag/asd">asd</a>, <a href="article/tag/asd">asd</a></p>
-                    <a href="#"><p class="text-muted float-right mr-3"> 0 shares <i class="fa fa-share" aria-hidden="true"></i></p></a>
-                    <a href="#"><p class="text-muted float-right mr-3"> 0 comments <i class="fa fa-comment" aria-hidden="true"></i></p></a>
                 </div>
             </div>
-        </div>
-        <div class="card">
-            <div class="row no-gutters">
-                <div class="col-auto">
-                    <img src="{{ asset('images/article/dumy.jpg') }}" class="img-fluid img-blog" alt="" width="auto">
-                </div>
-                <div class="col align-self-center">
-                    <div class="card-block px-3">
-                        <a href="article/1"><h4 class="card-title f-futura">Paving the path to a brighter future</h4></a>
-                        <h6 class="card-subtitle mb-2 text-muted">January 1st, 2019</h6>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsam 
-                            perferendis explicabo excepturi dignissimos amet nesciunt! Doloremque nihil quos a officia sunt saepe minima cupiditate! sae...</p>
-                        <hr>
-                    </div>
-                    <p class="text-muted float-left ml-3">tags : <a href="article/tag/asd">asd</a>, <a href="article/tag/asd">asd</a>, <a href="article/tag/asd">asd</a></p>
-                    <a href="#"><p class="text-muted float-right mr-3"> 0 shares <i class="fa fa-share" aria-hidden="true"></i></p></a>
-                    <a href="#"><p class="text-muted float-right mr-3"> 0 comments <i class="fa fa-comment" aria-hidden="true"></i></p></a>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="row no-gutters">
-                <div class="col-auto">
-                    <img src="{{ asset('images/article/dumy.jpg') }}" class="img-fluid img-blog" alt="" width="auto">
-                </div>
-                <div class="col align-self-center">
-                    <div class="card-block px-3">
-                        <a href="article/1"><h4 class="card-title f-futura">Paving the path to a brighter future</h4></a>
-                        <h6 class="card-subtitle mb-2 text-muted">January 1st, 2019</h6>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsam 
-                            perferendis explicabo excepturi dignissimos amet nesciunt! Doloremque nihil quos a officia sunt saepe minima cupiditate! sae...</p>
-                        <hr>
-                    </div>
-                    <p class="text-muted float-left ml-3">tags : <a href="article/tag/asd">asd</a>, <a href="article/tag/asd">asd</a>, <a href="article/tag/asd">asd</a></p>
-                    <a href="#"><p class="text-muted float-right mr-3"> 0 shares <i class="fa fa-share" aria-hidden="true"></i></p></a>
-                    <a href="#"><p class="text-muted float-right mr-3"> 0 comments <i class="fa fa-comment" aria-hidden="true"></i></p></a>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="row no-gutters">
-                <div class="col-auto">
-                    <img src="{{ asset('images/article/dumy.jpg') }}" class="img-fluid img-blog" alt="" width="auto">
-                </div>
-                <div class="col align-self-center">
-                    <div class="card-block px-3">
-                        <a href="article/1"><h4 class="card-title f-futura">Paving the path to a brighter future</h4></a>
-                        <h6 class="card-subtitle mb-2 text-muted">January 1st, 2019</h6>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsam 
-                            perferendis explicabo excepturi dignissimos amet nesciunt! Doloremque nihil quos a officia sunt saepe minima cupiditate! sae...</p>
-                        <hr>
-                    </div>
-                    <p class="text-muted float-left ml-3">tags : <a href="article/tag/asd">asd</a>, <a href="article/tag/asd">asd</a>, <a href="article/tag/asd">asd</a></p>
-                    <a href="#"><p class="text-muted float-right mr-3"> 0 shares <i class="fa fa-share" aria-hidden="true"></i></p></a>
-                    <a href="#"><p class="text-muted float-right mr-3"> 0 comments <i class="fa fa-comment" aria-hidden="true"></i></p></a>
-                </div>
-            </div>
-        </div>
+        @endforeach
     </div>
     <nav aria-label="Page navigation">
         <div class="mb-2">

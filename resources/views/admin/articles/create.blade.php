@@ -20,11 +20,11 @@
 					<label for="category" class="col-sm-2 col-form-label">Category</label>
 					<div class="col-sm-10">
 						<select id="category" class="form-control" name="category">
-							<option value="article">Artikel</option>
-							<option value="literatur">Literatur</option>
-							<option value="visual">Visual</option>
-							<option value="video">Video</option>
-							<option value="musik">Musik</option>
+							<option value="category1">categry1</option>
+							<option value="category2">categry2</option>
+							<option value="category3">categry3</option>
+							<option value="category4">categry4</option>
+							<option value="category5">categry5</option>
 						</select>
 					</div>
 				</div>
