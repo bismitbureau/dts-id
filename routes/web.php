@@ -20,6 +20,10 @@ Route::get('/article', 'PageController@articleList');
 Route::get('/article/1', 'PageController@articleSingle');
 Route::get('/article/tag/asd', 'PageController@articleTag');
 
+Route::get('/research', 'PageController@researchList');
+
+Route::get('/gallery', 'PageController@gallery');
+
 
 
 Route::get('/contact', 'ContactController@index');

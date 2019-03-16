@@ -1,0 +1,54 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.parallax_home {
+    /* The image used */
+    background-image: url('/images/home/Home.jpeg');
+    position: relative;
+    /* Full height */
+    height:90%;
+    z-index: 0;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.parallax_home > div{
+    color: white;
+    position: absolute;               /* 2 */
+    width: 100%;
+    height: 50%;
+    top: 80%;                         /* 3 */
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0,0,0, 0.75);
+}
+.content-1{
+    height:500px;
+    background-color:white;
+    font-size:36px;
+}
+
+.content-1 > div{
+    padding-top: 100px;
+    text-align: center;
+ font-weight: bolder;
+}
+
+.z-index{
+    z-index: 10000;
+}
+
+.big{
+    font-size: 60px;
+}
+.home-transparent{
+    background-color: rgba(255,0,0,0.1);
+}

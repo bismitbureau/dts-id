@@ -46,13 +46,13 @@
 </div>
 
 <div class="container pt-4">
-    <h2 class="f-futura">All Articles</h2>
+    <h2 class="">All Articles</h2>
     <hr>
     <div class="container">
         <div class="card">
             <div class="row no-gutters">
                 <div class="col-auto">
-                    <img src="{{ asset('images/article/dumy.jpg') }}" class="img-fluid" alt="" width="auto">
+                    <img src="{{ asset('images/article/dumy.jpg') }}" class="img-fluid img-blog" alt="" width="auto">
                 </div>
                 <div class="col align-self-center">
                     <div class="card-block px-3">
@@ -71,7 +71,7 @@
         <div class="card">
             <div class="row no-gutters">
                 <div class="col-auto">
-                    <img src="{{ asset('images/article/dumy.jpg') }}" class="img-fluid" alt="" width="auto">
+                    <img src="{{ asset('images/article/dumy.jpg') }}" class="img-fluid img-blog" alt="" width="auto">
                 </div>
                 <div class="col align-self-center">
                     <div class="card-block px-3">
@@ -90,7 +90,7 @@
         <div class="card">
             <div class="row no-gutters">
                 <div class="col-auto">
-                    <img src="{{ asset('images/article/dumy.jpg') }}" class="img-fluid" alt="" width="auto">
+                    <img src="{{ asset('images/article/dumy.jpg') }}" class="img-fluid img-blog" alt="" width="auto">
                 </div>
                 <div class="col align-self-center">
                     <div class="card-block px-3">
@@ -109,7 +109,7 @@
         <div class="card">
             <div class="row no-gutters">
                 <div class="col-auto">
-                    <img src="{{ asset('images/article/dumy.jpg') }}" class="img-fluid" alt="" width="auto">
+                    <img src="{{ asset('images/article/dumy.jpg') }}" class="img-fluid img-blog" alt="" width="auto">
                 </div>
                 <div class="col align-self-center">
                     <div class="card-block px-3">
