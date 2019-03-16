@@ -3,23 +3,27 @@
 @section('content')
 
 
-<div class="jumbotron jumbotron-fluid">
-    <div class="container">
-        <h1 class="display-3 f-futura">DTS INDONESA FEB UI</h1>
-        <p class="lead justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum blanditiis suscipit
-            nulla praesentium facere illum dicta tempore ipsa ipsam quia dignissimos, impedit sunt earum voluptates
-            temporibus reprehenderit quod. Ullam dicta similique dolorem ex hic mollitia quia corrupti qui et deleniti
-            neque nam iusto omnis corporis enim, rem suscipit voluptatibus obcaecati veritatis consequatur? Fugit
-            blanditiis facilis sed laudantium et libero illum consequuntur alias unde! Enim, modi ratione cumque
-            debitis quasi doloribus iure quibusdam iusto perspiciatis itaque illo sequi quod officia laborum id, iste
-            dolore ipsam. Aperiam eaque perspiciatis sed expedita minus vero enim dolor! Molestiae ut quasi iste,
-            laboriosam eum odio?</p>
-        <hr class="my-2">
-        <p>More info</p>
-        <p class="lead">
-            <a class="btn btn-primary btn-lg" href="Jumbo action link" role="button">Jumbo action name</a>
-        </p>
+<div class="parallax_home img-fluid">
+    <div class="w3-container home-transparent">
+        <br>
+        <br>
+        <h1 class="text-center big">DTS INDONESIA</h1>
+        <br>
+        <h3 class="text-center">Working Towards a Brighter Future</h3>
     </div>
+
+</div>
+
+<div class="content-1">
+    <div id="container-1">
+        <h1>DTS INDONESIA AT A GLANCE</h1>
+        <br>
+        <h6 style=" text-transform: none; font-weight: bold;">A Bit of Background</h6>
+        <h6 style="padding-top:10px;line-height:2;text-transform: none; max-width: 50%; margin-right:auto; margin-left: auto;">Here at DTS Indonesia, we are driven by a single goal; to do our part in making the world a better place for all. Our decision making process is informed by comprehensive empirical studies and high quality data evaluation. We strive to build productive relationships and make a positive impact with all of our pursuits.</h6>
+    </div>
+</div>
+<div class="parallax"></div>
+<div class="jumbotron jumbotron-fluid">
 </div>
 <section>
     <h1 class="text-center title f-futura">Our people</h1><br>

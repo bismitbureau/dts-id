@@ -39,7 +39,7 @@
 <!--  </div>-->
 <!--</nav>-->
 
-<nav class="navbar navbar navbar-expand-lg navbar-light bg-light shift " id="navbar">
+<nav class="navbar navbar navbar-expand-lg navbar-light bg-light shift z-index " id="navbar">
     <!-- Navbar brand -->
     <a style="font-family: Raleway;font-size: 22px;font-weight:lighter;" class="navbar-brand" href="/">DTS INDONESIA</a>
 
@@ -55,31 +55,29 @@
 
         <!-- Links -->
         <ul class="navbar-nav ml-auto">
-            <li class="{{ Request::is('/') ? 'nav-item active' : '' }}">
+            <li class="{{ Request::is('/') ? 'nav-item active' : 'nav-item' }}">
                 <a class="nav-link" href="/">Home
                 </a>
             </li>
-              <li class="nav-item dropdown">
+            <li class="{{ Request::is('about','board-of-directors') ? 'nav-item dropdown active' : 'nav-item dropdown' }}">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Profile
+                    Profile
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="/about">About Us</a>
-                  <a class="dropdown-item" href="/board-of-directors">Board of Director</a>
-            <!-- Dropdown -->
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-                   aria-expanded="false">Dropdown</a>
-                <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                </div>
+                    <a class="dropdown-item" href="/about">About Us</a>
+                    <a class="dropdown-item" href="/board-of-directors">Board of Director</a>
+            <li class="{{ Request::is('research') ? 'nav-item active' : 'nav-item' }}">
+                <a class="nav-link" href="/research">Research
+                </a>
+            </li>
+            <li class="{{ Request::is('gallery') ? 'nav-item active' : 'nav-item' }}">
+                <a class="nav-link" href="/gallery">Gallery
+                </a>
             </li>
 
-            <li class="nav-item"
-                <a class="nav-link" href="/article">Article</a>
+            <li class="{{ Request::is('article') ? 'nav-item active' : 'nav-item' }}" style="margin-right: 50px;">
+            <a class="nav-link" href="/article">Article</a>
             </li>
         </ul>
     </div>
-     </nav>
+    </nav>
