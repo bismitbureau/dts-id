@@ -72,8 +72,12 @@
                 </a>
             </li>
 
-            <li class="{{ Request::is('article') ? 'nav-item active' : 'nav-item' }}" style="margin-right: 50px;">
+            <li class="{{ Request::is('article') ? 'nav-item active' : 'nav-item' }}" >
             <a class="nav-link" href="/article">Article</a>
+            </li>
+
+            <li class="{{ Request::is('contact') ? 'nav-item active' : 'nav-item' }}" style="margin-right: 50px;">
+                <a class="nav-link" href="/contact">Contact</a>
             </li>
         </ul>
     </div>
