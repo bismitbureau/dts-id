@@ -59,13 +59,10 @@
                 <a class="nav-link" href="/">Home
                 </a>
             </li>
-            <li class="{{ Request::is('about','board-of-directors') ? 'nav-item dropdown active' : 'nav-item dropdown' }}">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <li class="{{ Request::is('profile') ? 'nav-item active' : 'nav-item' }}">
+                <a class="nav-link" href="/profile">
                     Profile
                 </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="/about">About Us</a>
-                    <a class="dropdown-item" href="/board-of-directors">Board of Director</a>
             <li class="{{ Request::is('research') ? 'nav-item active' : 'nav-item' }}">
                 <a class="nav-link" href="/research">Research
                 </a>
