@@ -44,6 +44,15 @@ $(document).ready(function() {
         $('#footer').css('margin-top', 18+ (docHeight - footerTop) + 'px');
 });
 </script>
+<script src="js/scrollreveal.js"></script>
+
+
+<!--HOME JS -->
+<!--<script>-->
+<!--    window.sr = ScrollReveal();-->
+<!--    sr.reveal('.summary',2);-->
+<!--</script>-->
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 </body>
 
 </html>
