@@ -22,7 +22,17 @@ Route::get('/article/tag/asd', 'PageController@articleTag');
 
 Route::get('/research', 'PageController@researchList');
 
+Route::get('/profile', 'PageController@profile');
+
+
 Route::get('/gallery', 'PageController@gallery');
+
+
+Route::get('/construct', 'PageController@underConstruction');
+
+Route::get('/faq', 'PageController@faq');
+
+
 
 
 
