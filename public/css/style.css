@@ -36,7 +36,11 @@ section.article {
 
 }
 
-
+img.img-blog{
+    max-width: 450px;   
+    max-height: 296px;
+    object-fit: cover;
+}
 li {
     list-style: none;
 }
