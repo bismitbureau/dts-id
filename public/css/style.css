@@ -36,12 +36,7 @@ section.article {
 
 }
 
-<<<<<<< HEAD
-img.img-blog{
-    max-width: 450px;   
-    max-height: 296px;
-    object-fit: cover;
-=======
+
 li {
     list-style: none;
 }
@@ -58,7 +53,6 @@ li {
 
 .img-gallery:hover {
     transform: scale(1.2);
->>>>>>> 02fa4e7716bd65ba302ea55f872bcc67bfd04bf7
 }
 
 .img-profile {
