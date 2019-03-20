@@ -7,7 +7,7 @@
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <!-- Custom styles for this template -->
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
@@ -19,6 +19,8 @@
 <link rel="stylesheet" href="{{ asset('css/base.css') }}">
 <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 <link rel="stylesheet" href="{{ asset('css/header.css') }}">
+<link rel="stylesheet" href="{{ asset('css/home.css') }}">
+<link rel="stylesheet" href="{{ asset('css/contact.css') }}">
 <!-- end head -->
 
 <body>
@@ -43,6 +45,15 @@ $(document).ready(function() {
         $('#footer').css('margin-top', 18+ (docHeight - footerTop) + 'px');
 });
 </script>
+<script src="js/scrollreveal.js"></script>
+
+
+<!--HOME JS -->
+<!--<script>-->
+<!--    window.sr = ScrollReveal();-->
+<!--    sr.reveal('.summary',2);-->
+<!--</script>-->
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 </body>
 
 </html>

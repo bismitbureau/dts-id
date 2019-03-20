@@ -3,6 +3,7 @@
 
 .navbar {
     min-height: 110px;
+    background-color: #FFFFFF !important;
 }
 
 .navbar-brand {
@@ -26,6 +27,12 @@
     top: 80px;
     left: auto;
     right: auto;
+    border: none;
+
+}
+
+.dropdown-item{
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {

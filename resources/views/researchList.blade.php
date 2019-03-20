@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="parallax img-fluid">
+<div class="parallax-research img-fluid">
     <h1 class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, optio.</h1>
 </div>
 
