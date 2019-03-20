@@ -57,7 +57,7 @@
                     @if($loop->first)
                         @if (pathinfo($pic->path, PATHINFO_EXTENSION) == 'jpeg')
                             <div class="col-auto">
-                                <img src="{{ '/storage/'.$pic->path }}" class="img-fluid img-blog" alt="" width="auto">
+                                <img src="{{ '/storage/'.$pic->path }}" class="img-fluid img-blog" alt="">
                             </div>
                         @else
                             <a href="{{ '/storage/'.$pic->path }}">Download File</a>
@@ -68,8 +68,8 @@
                     <div class="col align-self-center">
                         <div class="card-block px-3">
                             <a href="article/1"><h4 class="card-title f-futura">{{ $article->title }}</h4></a>
-                            <h6 class="card-subtitle mb-2 text-muted">January 1st, 2019</h6>
-                            <p class="card-text">{{ $article->content }}</p>
+                            <h6 class="card-subtitle mb-2 text-muted">{{ Carbon\Carbon::parse($article->created_at)->format('D, d M Y') }}</h6>
+                            <p class="card-text">{{ $article->body }}</p>
                             <hr>
                         </div>
                         <p class="text-muted float-left ml-3">tags : <a href="article/tag/asd">asd</a>, <a href="article/tag/asd">asd</a>, <a href="article/tag/asd">asd</a></p>

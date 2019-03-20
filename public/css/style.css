@@ -63,7 +63,9 @@ section.article{
 }
 
 img.img-blog{
-    max-width: 450px;
+    max-width: 450px;   
+    max-height: 296px;
+    object-fit: cover;
 }
 
 img.img-gallery{
