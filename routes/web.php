@@ -65,6 +65,9 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
 
   	//article routes
     Route::get('/article', 'PageController@article')->name('article');
-	Route::resource('/articles', 'ArticleController');
+		Route::resource('/articles', 'ArticleController');
 });
-?>
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
