@@ -6,8 +6,9 @@
 <div class="parallax_home img-fluid">
     <div class="w3-container home-transparent">
         <div class="my-5" style="height: 10%;"></div>
-        <h1 class="text-center big my-5">DTS INDONESIA</h1>
-        <h3 class="text-center my-5">Working Towards a Brighter Future</h3>
+        <h1 class="text-center big">DTS INDONESIA</h1>
+        <h5 class="text-center mb-5 pb-5" style="font-size:1.2rem">Development, Technology, and Strategy</h5>
+
     </div>
 
 </div>
