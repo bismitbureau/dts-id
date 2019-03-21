@@ -80,7 +80,7 @@ body, html {
 
 #container-2 > h1 {
     text-transform: none;
-    font-weight: bolder;
+    font-weight: lighter;
 }
 
 #container-2 > p{
