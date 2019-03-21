@@ -32,7 +32,7 @@
             </li>
 
             <li class="{{ Request::is('article') ? 'nav-item active' : 'nav-item' }}" >
-            <a class="nav-link" href="/article">Article</a>
+            <a class="nav-link" href="/articles">Article</a>
             </li>
 
             <li class="{{ Request::is('contact') ? 'nav-item active' : 'nav-item' }}" style="margin-right: 50px;">
