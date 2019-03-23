@@ -8,7 +8,7 @@ body, html {
     background-image: url('/images/home/Home.jpeg');
     position: relative;
     /* Full height */
-    height:90%;
+    height:100%;
     z-index: 0;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -33,7 +33,6 @@ body, html {
 .summary{
     height:500px;
     background-color:white;
-    font-size:36px;
 }
 
 .summary > div{
@@ -47,7 +46,7 @@ body, html {
 }
 
 .big{
-    font-size: 60px;
+    font-size: 4rem;
 }
 .home-transparent{
     max-height: 40%;
@@ -67,6 +66,10 @@ body, html {
     margin-left: auto;"
 }
 
+#container-1 > h1{
+    font-size: 3rem;
+}
+
 .whoweare{
     height:550px;
     background-color:white;
@@ -80,7 +83,7 @@ body, html {
 
 #container-2 > h1 {
     text-transform: none;
-    font-weight: bolder;
+    font-weight: lighter;
 }
 
 #container-2 > p{
@@ -123,4 +126,41 @@ body, html {
 
 .newsletter{
     padding-top: 50px;
+}
+
+@media only screen and (max-width: 720px) {
+
+    h1.big{
+        font-size: 2.5rem;
+    }
+    h1.small{
+        font-size: 0.5rem !important;
+    }
+    div#container-1 > h1{
+        font-size: 2rem;
+    }
+    div.summary{
+        padding-top: 1px;
+        height: 700px;
+    }
+    div.content{
+        height: 800px;
+    }
+    div.whatwedo{
+        height: 800px;
+    }
+
+}
+@media only screen and (max-width: 320px) {
+
+    body {
+        font-size: 1em;
+    }
+    h1.big{
+        font-size: 2.25rem;
+    }
+    h1.small{
+        font-size: 0.5rem !important;
+    }
+
 }
