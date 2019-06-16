@@ -22,17 +22,22 @@
                 <a class="nav-link" href="/profile">
                     Profile
                 </a>
+            <li class="{{ Request::is('article') ? 'nav-item active' : 'nav-item' }}" >
+                <a class="nav-link" href="/articles">Article</a>
+            </li>
             <li class="{{ Request::is('research') ? 'nav-item active' : 'nav-item' }}">
                 <a class="nav-link" href="/research">Research
                 </a>
             </li>
+
             <li class="{{ Request::is('gallery') ? 'nav-item active' : 'nav-item' }}">
                 <a class="nav-link" href="/gallery">Gallery
                 </a>
             </li>
 
-            <li class="{{ Request::is('article') ? 'nav-item active' : 'nav-item' }}" >
-            <a class="nav-link" href="/articles">Article</a>
+            <li class="{{ Request::is('faq') ? 'nav-item active' : 'nav-item' }}">
+                <a class="nav-link" href="/faq">FAQ
+                </a>
             </li>
 
             <li class="{{ Request::is('contact') ? 'nav-item active' : 'nav-item' }}" style="margin-right: 50px;">

@@ -4,7 +4,7 @@
 
 <div class="container pt-4">
    <section class="article mb-3 p-5">
-      <h1>Paving the path to a brighter future</h1>
+      <h1 class="font-weight-bold">Paving the path to a brighter future</h1>
       <p><small>written by <a href="#">Khalis Murfid</a> at January 1st, 2019</small></p>
       <hr>
       <p class="font-weight-light"">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed, amet et exercitationem aliquam voluptas consectetur quisquam obcaecati 
@@ -28,13 +28,14 @@
       <img src="{{ asset('images/article/dumy.jpg') }}" alt="" class="img-fluid rounded">
       <br><br>
       <hr>
-      <p>tag : <a href="../article/tag/asd">asd</a></p>
+      <p><span class="text-muted"> category : </span><a href="/articles/category/?=asd">asd</a></p>
       <hr>
       <p>9 views <i class="fa fa-eye" aria-hidden="true"></i></p>
    </section>
 
    <section>
-      <h3>Recent articles</h3>
+      <h3 class="font-weight-bold">Recent articles</h3>
+      <div id="asset" class="mt-2 mb-5"></div>
       <div class="card-deck">
          <div class="card">
             <a href="">
@@ -42,7 +43,7 @@
             </a>
            <div class="card-body">
              <a href="">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="font-weight-bold card-title">Card title</h5>
             </a>
              <p class="card-text"><small class="text-muted">Posted 10 minutes ago</small></p>
            </div>
@@ -53,7 +54,7 @@
                   </a>
                  <div class="card-body">
                    <a href="">
-                      <h5 class="card-title">Card title</h5>
+                      <h5 class="font-weight-bold card-title">Card title</h5>
                   </a>
                <p class="card-text"><small class="text-muted">Posted 10 minutes ago</small></p>
             </div>
@@ -64,7 +65,7 @@
                   </a>
                  <div class="card-body">
                    <a href="">
-                      <h5 class="card-title">Card title</h5>
+                      <h5 class="font-weight-bold card-title">Card title</h5>
                   </a>
                <p class="card-text"><small class="text-muted">Posted 10 minutes ago</small></p>
             </div>
@@ -72,12 +73,12 @@
        </div>
    </section>
 
-   <section class="article mb-5 p-5">
+   {{-- <section class="article mb-5 p-5">
       <h3>Leave a comment</h3>
       <hr>
       <a href="">
          <p class="text-center">Login to leave a comment!</p>
       </a>
-   </section>
+   </section> --}}
 </div>
 @endsection

@@ -6,15 +6,15 @@
 <div class="parallax_home img-fluid">
     <div class="w3-container home-transparent">
         <div class="my-5"></div>
-        <h1 style="padding-top: 1em" class="text-center big">DTS INDONESIA</h1>
-        <h5 class="text-center mb-5 pb-5 small" style="font-size:1.2rem">Development, Technology, and Strategy</h5>
+        <h1 class="text-center big font-weight-bold pt-5">DTS INDONESIA</h1>
+        <h5 class="text-center mb-5" style="font-size:2rem">Development, Technology, and Strategy</h5>
 
     </div>
 
 </div>
 
 <div class="summary">
-    <div id="container-1" class="bacod">
+    <div id="container-1" class="py-5 bacod">
         <h1>DTS INDONESIA AT A GLANCE</h1>
         <br>
         <h6 style=" text-transform: none; font-weight: bold;">A Bit of Background</h6>
@@ -28,15 +28,15 @@
 
 <!--Who we are-->
 <div data-sr class="container-fluid content">
-    <div class="whoweare">
+    <div class="whoweare container py-5">
         <div class="row">
-            <div class="col-sm-2"></div>
-            <div class="col-sm-4" id="container-2">
-                <h1>Who is DTS Indonesia ?</h1>
-                <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+            <div class="col-md-8 position-relative" id="container-2">
+                <div class="description p-5">
+                    <h1 class="font-weight-bold">Who is DTS Indonesia ?</h1>
+                    <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                </div>
             </div>
-            <div class="col-sm-2"></div>
-            <div class="col-sm-4">
+            <div class="col-md-4 text-center">
                 <img src="/images/home/whoarewe.jpeg" class="responsive">
             </div>
         </div>
@@ -44,93 +44,85 @@
 
 </div>
 <!--What we do-->
-<div class="container-fluid content">
-    <div class="whatwedo">
+<div class="container-fluid content whatwedo ">
+    <div class="container py-5">
         <div class="row">
-            <div class="col-sm-2"></div>
-            <div class="col-sm-2">
+            <div class="col-md-4 text-center">
                 <img src="/images/home/whoarewe.jpeg" class="responsive">
             </div>
-            <div class="col-sm-2"></div>
-            <div class="col-sm-4" id="container-2">
-                <h1>What DTS Indonesia do ?</h1>
-                <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+            <div class="col-md-8 position-relative" id="container-2">
+                <div class="description p-5">
+                    <h1 class="font-weight-bold">What DTS Indonesia do ?</h1>
+                    <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                </div>
             </div>
-            <div class="col-sm-2"></div>
         </div>
     </div>
 </div>
 
-<div class="container-fluid content">
-    <div class="whatwethink">
+<div class="container-fluid content whatwethink">
+    <div class="container py-5">
         <div class="row">
-            <div class="col-sm-2"></div>
-            <div class="col-sm-4" id="container-2">
-                <h1>What DTS Indonesia think ?</h1>
-                <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+            <div class="col-md-8 position-relative" id="container-2">
+                <div class="description p-5">
+                    <h1 class="font-weight-bold">What DTS Indonesia think ?</h1>
+                    <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                </div>
             </div>
-            <div class="col-sm-2"></div>
-            <div class="col-sm-4">
+            <div class="col-md-4 text-center">
                 <img src="/images/home/whoarewe.jpeg" class="responsive">
             </div>
         </div>
     </div>
 </div>
-<div class="container-fluid">
+<div class="container">
     <div class="home-article">
         <div class="card-deck">
-            <div class="card" style="width:20em">
+            <div class="card">
                 <img class="card-img-top" src="https://d3bv2hg4q0qyg2.cloudfront.net/2018/09/16/research.jpg" alt="Card image" style="width:100%">
-                <div class="card-body">
+                <div class="card-body pb-5">
                     <h4 class="card-title">An Article</h4>
-                    <p class="card-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC</p>
+                    <p class="card-text">Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
+                </div>
+                <div class="text-right">
                     <a href="#" class="btn btn-outline-dark">Read More</a>
                 </div>
             </div>
-            <div class="card" style="width:20em">
+            <div class="card">
                 <img class="card-img-top" src="https://d3bv2hg4q0qyg2.cloudfront.net/2018/09/16/research.jpg" alt="Card image" style="width:100%">
-                <div class="card-body">
+                <div class="card-body pb-5">
                     <h4 class="card-title">An Article</h4>
-                    <p class="card-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC</p>
-                    <a href="#" class="btn btn-outline-dark">Read More</a>
+                    <p class="card-text">Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
                 </div>
+                    <div class="text-right">
+                        <a href="#" class="btn btn-outline-dark">Read More</a>
+                    </div>
             </div>
-            <div class="card" style="width:20em">
+            <div class="card">
                 <img class="card-img-top" src="https://d3bv2hg4q0qyg2.cloudfront.net/2018/09/16/research.jpg" alt="Card image" style="width:100%">
-                <div class="card-body">
+                <div class="card-body pb-5">
                     <h4 class="card-title">An Article</h4>
-                    <p class="card-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC</p>
-                    <a href="#" class="btn btn-outline-dark">Read More</a>
+                    <p class="card-text">Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
                 </div>
-            </div>
-            <div class="card" style="width:20em">
-                <img class="card-img-top" src="https://d3bv2hg4q0qyg2.cloudfront.net/2018/09/16/research.jpg" alt="Card image" style="width:100%">
-                <div class="card-body">
-                    <h4 class="card-title">An Article</h4>
-                    <p class="card-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC</p>
-                    <a href="#" class="btn btn-outline-dark">Read More</a>
-                </div>
+                    <div class="text-right">
+                        <a href="#" class="btn btn-outline-dark">Read More</a>
+                    </div>
             </div>
         </div>
     </div>
 
 </div>
 
-<div class="container-fluid" style="padding-top: 2em;width: 80%;">
+<div class="container pt-5" style="width: 70%;">
+    <div class="text-center py-5">
+        <h1>Subsrcribe to Us!</h1>
+        <hr>
+    </div>
     <!-- Form register -->
     <form>
-
-        <div class="md-form">
-            <div class="row">
-                <div class="col-sm-12">
-                    <i class="fa fa-user prefix grey-text "></i>
-                </div>
-            </div>
-            <input placeholder="Your Name" type="text" id="orangeForm-name37" class="form-control">
-        </div>
-        <div class="md-form">
-            <i class="fa fa-envelope prefix grey-text "></i>
-            <input placeholder="Your Email" type="text" id="orangeForm-email37" class="form-control">
+        <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control form-control-lg" id="email" aria-describedby="emailHelp" placeholder="Enter email">
         </div>
         <div class="text-center py-4">
             <button class="btn btn-outline-dark">Subscribe</button>

@@ -2,7 +2,7 @@
 
 @section('content')
    <div class="container">
-       <h1>frequently asked questions</h1>
+       <h1>Frequently Asked Questions</h1>
        <hr>
         <div id="accordion" role="tablist">
                 <div class="card">

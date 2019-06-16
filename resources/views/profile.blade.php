@@ -11,7 +11,7 @@
                 </ul>
             </div>
             <div class="col-lg-10 col-sm-12" id="collapse">
-                    <h1>About Us</h1>
+                    <h1 class="font-weight-bold">Profile</h1>
                     <hr>
                     <img src="{{ asset('images/profile/dummy.jpeg') }}" class="img-fluid my-3" width="auto">
                     <p>DTS is a business and consulting firm focusing on various research and advisory works for private and public sector institutions. We provide research, consulting, and strategic advisory services to public and private clients across industries. We work with client to address their specific objectives and transform from strategy to reality. With national and global network held by our team member, our organization attempts to build a connection and create a strategy to innovate combining comprehensive frontier researches and best practices.   
@@ -30,7 +30,7 @@
     <script>
         document.querySelector('#collapse1').onclick = function (){
             document.querySelector("#collapse").innerHTML = `
-                <h1>About Us</h1>
+                <h1 class="font-weight-bold">Profile</h1>
                 <hr>
                 <img src="{{ asset('images/profile/dummy.jpeg') }}" class="img-fluid my-3" width="auto">
                 <p>DTS is a business and consulting firm focusing on various research and advisory works for private and public sector institutions. We provide research, consulting, and strategic advisory services to public and private clients across industries. We work with client to address their specific objectives and transform from strategy to reality. With national and global network held by our team member, our organization attempts to build a connection and create a strategy to innovate combining comprehensive frontier researches and best practices.   
@@ -49,10 +49,10 @@
         
         document.querySelector('#collapse2').onclick = function (){
             document.querySelector("#collapse").innerHTML = `
-                <h1>Vision</h1>
+                <h1 class="font-weight-bold">Vision</h1>
                 <hr>
                 <p class="text-center mb-5">Lorem ipsum dolor sit amet consect ex consectetur. Fugit delectus, sapiente similique molestias nulla doloremque sit, necessitatibus veniam porro possimus omnis eligendi ducimus totam temporibus vitae architecto nihil earum illo excepturi quam! Placeat laudantium ex incidunt illo! Iure, optio! Voluptates, delectus.</p>
-                <h1>Mission</h1>
+                <h1 class="font-weight-bold">Mission</h1>
                 <hr>
                 <ul>
                     <li class="my-4"><i class="fas fa-circle-notch    "></i> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic cupiditate consequatur illo, numquam minus quaerat aliquid vitae iste nam repellendus?</li>
@@ -66,13 +66,13 @@
 
         document.querySelector('#collapse3').onclick = function (){
             document.querySelector("#collapse").innerHTML = `
-                <h1>Board of Director</h1>
+                <h1 class="font-weight-bold">Board of Director</h1>
                 <hr>
                 <div class="row mb-5">
                     <div class="col-lg-3 col-sm-12">
                     <img src="{{ asset('images/bod/ceo.png') }}" class="img-fluid img-profile">
                     </div>
-                    <div class="col-lg-9 col-sm-12 p-3">
+                    <div class="col-lg-9 col-sm-12">
                         <h2>Teguh Yudo Wicaksono, Ph.D </h2>
                         <h6 class="text-muted">CEO</h6>
                         <p>
@@ -83,7 +83,7 @@
                     <div class="col-lg-3 col-sm-12">
                     <img src="{{ asset('images/bod/ainulhuda.png') }}" class="img-fluid img-profile">
                     </div>
-                    <div class="col-lg-9 col-sm-12 p-3">
+                    <div class="col-lg-9 col-sm-12">
                         <h2>Ainul Huda, MSc </h2>
                         <h6 class="text-muted">Project Lead</h6>
                         <p>
@@ -91,20 +91,20 @@
                         </p>
                 </div>
                 <div class="row mb-5">
-                    <div class="col-lg-6 col-sm-12">
-                    <img src="{{ asset('images/bod/carlos.png') }}" class="img-fluid">
+                    <div class="col-lg-3 col-sm-12">
+                    <img src="{{ asset('images/bod/carlos.png') }}" class="img-fluid img-profile">
                     </div>
-                    <div class="col-lg-6 col-sm-12 p-3">
+                    <div class="col-lg-9 col-sm-12">
                         <h2>Carlos Mangunsong, MBE</h2>
                         <h6 class="text-muted">Economist Lead</h6>
                         <p>Carlos earned his master’s degree from Monash University Australia majoring in business and economics. He has experiences working with various organizations such as private sectors, government, and international/donor institution. He worked for CSIS prior to joining DTS. His fields of specialization are Macroeconomics, International Trade, Financial Sector, Infrastructure, Data Analytics and Forecasting. </p>
                     </div>
                 </div>
                 <div class="row mb-5">
-                    <div class="col-lg-6 col-sm-12">
+                    <div class="col-lg-3 col-sm-12">
                     <img src="{{ asset('images/profile/bod.jpeg') }}" class="img-fluid img-profile">
                     </div>
-                    <div class="col-lg-6 col-sm-12 p-3">
+                    <div class="col-lg-9 col-sm-12">
                         <h2>ray azrin karim</h2>
                         <h6 class="text-muted">Chief Executive Officer</h6>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem maxime totam sapiente, animi nobis, aliquam assumenda, nihil sed quisquam eum id sequi dolores odio maiores. Harum repellat molestiae accusantium assumenda.</p>
@@ -112,10 +112,10 @@
                     </div>
                 </div>
                 <div class="row mb-5">
-                    <div class="col-lg-6 col-sm-12">
+                    <div class="col-lg-3 col-sm-12">
                     <img src="{{ asset('images/profile/bod.jpeg') }}" class="img-fluid img-profile">
                     </div>
-                    <div class="col-lg-6 col-sm-12 p-3">
+                    <div class="col-lg-9 col-sm-12">
                         <h2>ray azrin karim</h2>
                         <h6 class="text-muted">Chief Executive Officer</h6>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem maxime totam sapiente, animi nobis, aliquam assumenda, nihil sed quisquam eum id sequi dolores odio maiores. Harum repellat molestiae accusantium assumenda.</p>
