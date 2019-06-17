@@ -8,7 +8,6 @@
         <div class="my-5"></div>
         <h1 class="text-center big font-weight-bold pt-md-5">DTS INDONESIA</h1>
         <h5 class="text-center mb-5" style="font-size:2rem">Development, Technology, and Strategy</h5>
-
     </div>
 
 </div>

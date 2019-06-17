@@ -11,10 +11,10 @@
     <div id="asset" class="mt-2 mb-5"></div>
 
     <div class="container">
-        <div class="card">
+        <div class="card my-4">
             <div class="row no-gutters">
-                <div class="col align-self-center">
-                    <div class="card-block px-3">
+                <div class="col align-self-center p-md-2">
+                    <div class="card-block p-3 m-2">
                         <h4 class="card-title f-futura">An Analysis of Teachers’ Strategies in Teaching Reading Comprehension</h4>
                         <p class="card-subtitle mb-2 text-muted">Published on January 1st, 2019 by Ray Azrin Karim</p>
                         <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. A voluptatibus consectetur sunt nam 
@@ -29,10 +29,10 @@
                 </div>
             </div>
         </div>
-        <div class="card">
+        <div class="card my-4">
             <div class="row no-gutters">
-                <div class="col align-self-center">
-                    <div class="card-block px-3">
+                <div class="col align-self-center p-md-2">
+                    <div class="card-block p-3 m-2">
                         <h4 class="card-title f-futura">An Analysis of Teachers’ Strategies in Teaching Reading Comprehension</h4>
                         <p class="card-subtitle mb-2 text-muted">Published on January 1st, 2019 by Ray Azrin Karim</p>
                         <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. A voluptatibus consectetur sunt nam 
@@ -47,10 +47,10 @@
                 </div>
             </div>
         </div>
-        <div class="card">
+        <div class="card my-4">
             <div class="row no-gutters">
-                <div class="col align-self-center">
-                    <div class="card-block px-3">
+                <div class="col align-self-center p-md-2">
+                    <div class="card-block p-3 m-2">
                         <h4 class="card-title f-futura">An Analysis of Teachers’ Strategies in Teaching Reading Comprehension</h4>
                         <p class="card-subtitle mb-2 text-muted">Published on January 1st, 2019 by Ray Azrin Karim</p>
                         <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. A voluptatibus consectetur sunt nam 
@@ -65,10 +65,10 @@
                 </div>
             </div>
         </div>
-        <div class="card">
+        <div class="card my-4">
             <div class="row no-gutters">
-                <div class="col align-self-center">
-                    <div class="card-block px-3">
+                <div class="col align-self-center p-md-2">
+                    <div class="card-block p-3">
                         <h4 class="card-title f-futura">An Analysis of Teachers’ Strategies in Teaching Reading Comprehension</h4>
                         <p class="card-subtitle mb-2 text-muted">Published on January 1st, 2019 by Ray Azrin Karim</p>
                         <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. A voluptatibus consectetur sunt nam 

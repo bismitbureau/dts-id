@@ -100,7 +100,7 @@
 
 <div class="container pt-4">
     <h2 class="font-weight-bold">Article</h2>
-    <div id="asset" class="mt-2 mb-5"></div>
+    <div id="asset" class="mt-2 mb-5"></div>    
 
     <div class="container">
         <div class="card">
@@ -113,7 +113,7 @@
                 <div class="col align-self-center">
                     <div class="card-block px-3">
                         <a href="articles/1">
-                            <h4 class="card-title f-futura">An Analysis of Teachers’ Strategies in Teaching Reading Comprehension</h4>
+                            <h4 class="card-title pt-3 f-futura">An Analysis of Teachers’ Strategies in Teaching Reading Comprehension</h4>
                         </a>
                         <p class="card-subtitle mb-2 text-muted">Published on January 1st, 2019</p>
                         <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. A voluptatibus consectetur sunt nam 
@@ -133,7 +133,7 @@
                 </div>
                 <div class="col align-self-center">
                     <div class="card-block px-3">
-                        <h4 class="card-title f-futura">An Analysis of Teachers’ Strategies in Teaching Reading Comprehension</h4>
+                        <h4 class="card-title pt-3 f-futura">An Analysis of Teachers’ Strategies in Teaching Reading Comprehension</h4>
                         <p class="card-subtitle mb-2 text-muted">Published on January 1st, 2019</p>
                         <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. A voluptatibus consectetur sunt nam 
                             cumque corrupti expedita? Hic odio, perspiciatis, quasi porro beatae officia quaerat nesciunt aperiam 
@@ -152,7 +152,7 @@
                 </div>
                 <div class="col align-self-center">
                     <div class="card-block px-3">
-                        <h4 class="card-title f-futura">An Analysis of Teachers’ Strategies in Teaching Reading Comprehension</h4>
+                        <h4 class="card-title pt-3 f-futura">An Analysis of Teachers’ Strategies in Teaching Reading Comprehension</h4>
                         <p class="card-subtitle mb-2 text-muted">Published on January 1st, 2019</p>
                         <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. A voluptatibus consectetur sunt nam 
                             cumque corrupti expedita? Hic odio, perspiciatis, quasi porro beatae officia quaerat nesciunt aperiam 
@@ -171,7 +171,7 @@
                 </div>
                 <div class="col align-self-center">
                     <div class="card-block px-3">
-                        <h4 class="card-title f-futura">An Analysis of Teachers’ Strategies in Teaching Reading Comprehension</h4>
+                        <h4 class="card-title pt-3 f-futura">An Analysis of Teachers’ Strategies in Teaching Reading Comprehension</h4>
                         <p class="card-subtitle mb-2 text-muted">Published on January 1st, 2019</p>
                         <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. A voluptatibus consectetur sunt nam 
                             cumque corrupti expedita? Hic odio, perspiciatis, quasi porro beatae officia quaerat nesciunt aperiam 

@@ -88,7 +88,7 @@ html {
     /* padding-top: 130px; */
 }
 
-@media only screen and (min-width:1200px){
+@media only screen and (min-width:992px){
     .description{
         position: absolute;
         top:50%;

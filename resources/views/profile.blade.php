@@ -3,11 +3,11 @@
 @section('content')
     <div class="container">
         <div class="row mt-5">
-            <div class="col-lg-2 col-sm-12">    
+            <div class="col-lg-2 col-sm-12 pb-4">    
                 <ul class="ul-profile">
-                    <li class="mb-4 li-profile " id="collapse1">Organization Summary</li>
-                    <li class="mb-4 li-profile" id="collapse2">Vision and Mission</li>
-                    <li class="mb-4 li-profile" id="collapse3">Our People</li>
+                    <li class="mb-4 li-profile font-weight-bold" id="collapse1">Organization Summary</li>
+                    <li class="mb-4 li-profile font-weight-bold" id="collapse2">Vision and Mission</li>
+                    <li class="mb-4 li-profile font-weight-bold" id="collapse3">Our People</li>
                 </ul>
             </div>
             <div class="col-lg-10 col-sm-12" id="collapse">

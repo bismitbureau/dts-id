@@ -58,10 +58,6 @@ li {
     transition: all .2s ease-in-out;
 }
 
-.img-gallery:hover {
-    transform: scale(1.2);
-}
-
 .img-profile {
     /* max-width: 200px; */
     /* height: 320px; */
@@ -76,12 +72,23 @@ li {
     border-bottom: 1px solid #ffffff;
 }
 
-.row:hover img.img-gallery {
-    opacity: .2;
-}
+@media only screen and (min-width:992px){
+    .img-gallery:hover {
+        transform: scale(1.2);
+    }
 
-.row img.img-gallery:hover {
-    opacity: 1;
+    .row:hover img.img-gallery {
+        opacity: .2;
+    }
+    
+    .row img.img-gallery:hover {
+        opacity: 1;
+    }
+
+    .card {
+        margin: 2rem 0rem;
+        padding: 1rem 1rem;
+    }
 }
 
 
@@ -102,10 +109,7 @@ li {
     align-items: center;
 }
 
-.card {
-    margin: 2rem 2rem;
-    padding: 1rem 1rem;
-}
+
 
 /*.carousel{*/
 /*z-index: -10000;*/
