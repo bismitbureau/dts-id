@@ -1,6 +1,6 @@
 <nav class="navbar navbar navbar-expand-lg navbar-light bg-light shift z-index " id="navbar">
     <!-- Navbar brand -->
-    <a style="font-family: Raleway;font-size: 22px;font-weight:lighter;" class="navbar-brand" href="/">DTS INDONESIA</a>
+    <a style="font-family: Raleway;font-size: 22px;font-weight:bold;" class="navbar-brand" href="/">DTS INDONESIA</a>
 
     <!-- Collapse button -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav"
@@ -40,7 +40,7 @@
                 </a>
             </li>
 
-            <li class="{{ Request::is('contact') ? 'nav-item active' : 'nav-item' }}" style="margin-right: 50px;">
+            <li class="{{ Request::is('contact') ? 'nav-item active' : 'nav-item' }}">
                 <a class="nav-link" href="/contact">Contact</a>
             </li>
         </ul>

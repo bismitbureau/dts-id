@@ -6,7 +6,7 @@
 <div class="parallax_home img-fluid">
     <div class="w3-container home-transparent">
         <div class="my-5"></div>
-        <h1 class="text-center big font-weight-bold pt-5">DTS INDONESIA</h1>
+        <h1 class="text-center big font-weight-bold pt-md-5">DTS INDONESIA</h1>
         <h5 class="text-center mb-5" style="font-size:2rem">Development, Technology, and Strategy</h5>
 
     </div>
@@ -31,7 +31,7 @@
     <div class="whoweare container py-5">
         <div class="row">
             <div class="col-md-8 position-relative" id="container-2">
-                <div class="description p-5">
+                <div class="description p-md-5">
                     <h1 class="font-weight-bold">Who is DTS Indonesia ?</h1>
                     <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
                 </div>
@@ -44,14 +44,14 @@
 
 </div>
 <!--What we do-->
-<div class="container-fluid content whatwedo ">
+<div class="content whatwedo ">
     <div class="container py-5">
         <div class="row">
             <div class="col-md-4 text-center">
                 <img src="/images/home/whoarewe.jpeg" class="responsive">
             </div>
             <div class="col-md-8 position-relative" id="container-2">
-                <div class="description p-5">
+                <div class="description p-md-5">
                     <h1 class="font-weight-bold">What DTS Indonesia do ?</h1>
                     <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
                 </div>
@@ -64,7 +64,7 @@
     <div class="container py-5">
         <div class="row">
             <div class="col-md-8 position-relative" id="container-2">
-                <div class="description p-5">
+                <div class="description p-md-5">
                     <h1 class="font-weight-bold">What DTS Indonesia think ?</h1>
                     <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
                 </div>

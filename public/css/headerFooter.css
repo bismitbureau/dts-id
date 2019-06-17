@@ -1,12 +1,12 @@
 .navbar {
-    height: 8vh;
+    min-height: 8vh;
     background-color: #FFFFFF !important;
 }
 
 .navbar-brand {
-    padding: 0 60px;
-    height: 80px;
-    line-height: 80px;
+    /* padding: 0 60px; */
+    /* height: 80px; */
+    /* line-height: 80px; */
 }
 
 .navbar-nav>li {
@@ -16,8 +16,8 @@
 
 .navbar-toggle {
     /* (80px - button height 34px) / 2 = 23px */
-    margin-top: 23px;
-    padding: 9px 10px !important;
+    /* margin-top: 23px; */
+    /* padding: 9px 10px !important; */
 }
 
 .dropdown-menu {
