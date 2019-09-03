@@ -17,7 +17,7 @@
 Route::get('/', 'PageController@index');
 
 // Route::get('/article', 'PageController@articleList');
-// Route::get('/article/1', 'PageController@articleSingle');
+Route::get('/articles/1', 'PageController@articleSingle');
 Route::get('/article/tag/asd', 'PageController@articleTag');
 
 Route::get('/research', 'PageController@researchList');
@@ -40,13 +40,13 @@ Route::get('/contact', 'ContactController@index');
 
 Route::get('/about', 'PageController@about');
 
-Route::get('/board-of-directors', 'PageController@bod');
+Route::get('/bod', 'PageController@bod');
 
 Route::resource('/articles', 'ArticleController');
 
 
 
-Route::get('/article/{id}', 'PageController@showarticle')->name('article.show');
+// Route::get('/article/{id}', 'PageController@showarticle')->name('article.show');
 Route::get('/articles/{category}', 'PageController@showcategory')->name('article.category');
 
 

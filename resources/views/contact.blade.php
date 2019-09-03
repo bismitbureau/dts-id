@@ -24,26 +24,21 @@
     <div class="row">
        <div class="col-sm-12">
            <div class="container-fluid" style="padding-top: 2em;width: 80%;">
-               <!-- Form register -->
-               <form>
-
-                   <div class="md-form">
-                       <div class="row">
-                           <div class="col-sm-12">
-                               <i class="fa fa-user prefix grey-text "></i>
-                           </div>
-                       </div>
-                       <input placeholder="Your Name" type="text" id="orangeForm-name37" class="form-control">
-                   </div>
-                   <div class="md-form">
-                       <i class="fa fa-envelope prefix grey-text "></i>
-                       <input placeholder="Your Email" type="text" id="orangeForm-email37" class="form-control">
-                   </div>
-                   <div class="text-center py-4">
-                       <button class="btn btn-outline-dark">Subscribe</button>
-                   </div>
-               </form>
-               <!-- Form register -->
+               <div class="text-center py-5">
+                    <h1>Subsrcribe to Us!</h1>
+                    <hr>
+                </div>
+                <!-- Form register -->
+                <form>
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control form-control-lg" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                    </div>
+                    <div class="text-center py-4">
+                        <button class="btn btn-outline-dark">Subscribe</button>
+                    </div>
+                </form>
+                <!-- Form register -->
 
            </div>
 

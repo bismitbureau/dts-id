@@ -45,13 +45,10 @@
 				</div>
 				</hr>
 			</div>
-			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
-					{{-- <p><a><a href="">DTS-Indonesia</a></a></p> --}}
-					<p class="h6">&copy All right Reversed.<a class="text-green ml-2" href="contactus" target="_blank">DTS-Indonesia</a></p>
-				</div>
-				</hr>
+			<div class="pt-4 text-white">
+				<p class="text-center">&copy All right Reversed. <a href="contact" target="_blank">DTS Indonesia</a></p>
 			</div>
+			</hr>
 		</div>
 	</section>
 	<!-- ./Footer -->
